@@ -1,0 +1,40 @@
+
+body {
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.black_container {
+    background-color: darkslategrey;
+    color: cornsilk;
+    min-height: 30px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.input_field {
+    min-height: 20px;
+    padding: 20px;
+
+}
+
+.buttons {
+    min-height: 20px;
+    vertical-align: middle;
+    color: cornsilk;
+    padding: 15px;
+    flex: 1 0 auto;
+}
+
+#add {
+    background-color: green;
+}
+
+#remove {
+    background-color: orange;
+}
+
+#clear {
+    background-color: orangered;
+}
