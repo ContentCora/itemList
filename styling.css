@@ -13,22 +13,31 @@ body {
     padding: 20px;
 }
 
+.items {
+    font-size: 20px;
+}
+
 .input_field {
-    min-height: 20px;
+    min-height: 30px;
     padding: 20px;
 
 }
 
 .buttons {
-    min-height: 20px;
-    vertical-align: middle;
-    color: cornsilk;
     padding: 15px;
     flex: 1 0 auto;
 }
 
+.button {
+    font-size: 20px;
+    min-height: 30px;
+    vertical-align: middle;
+    color: cornsilk;
+}
+
 #add {
     background-color: green;
+ 
 }
 
 #remove {
